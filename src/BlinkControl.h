@@ -49,7 +49,6 @@ class BlinkControl {
     #if defined(ESP32)
     BlinkControl(int pin, uint8_t channel, double freq=50, uint8_t resolutionBits=8);
     #endif
-    ~BlinkControl();
 
     void begin();
     void loop();
